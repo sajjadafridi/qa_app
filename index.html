@@ -1,45 +1,39 @@
-<!DOCTYPE html> 
-<html> 
-  
-<head> 
-    <title>full screen iframe</title> 
-    <style type="text/css"> 
-        html { 
-            overflow: auto; 
-        } 
-          
-        html, 
-        body, 
-        div, 
-        iframe { 
-            margin: 0px; 
-            padding: 0px; 
-            height: 100%; 
-            border: none; 
-        } 
-          
-        iframe { 
-            display: block; 
-            width: 100%; 
-            border: none; 
-            overflow-y: auto; 
-            overflow-x: hidden; 
-        } 
-    </style> 
-</head> 
-  
-<body> 
-  <!-- <iframe src="https://testingmdas-aof2fpgv5qgagl2nbadmxe.streamlit.app/"></iframe> -->
-
-    <iframe src="https://testingmdas-aof2fpgv5qgagl2nbadmxe.streamlit.app"
-            frameborder="0" 
-            marginheight="0" 
-            marginwidth="0" 
-            width="100%" 
-            height="100%" 
-            scrolling="auto"> 
-  </iframe> 
-  
-</body> 
-  
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Streamlit for Geospatial</title>
+    <style type="text/css">
+      html {
+        overflow: auto;
+      }
+      html,
+      body,
+      div,
+      iframe {
+        margin: 0px;
+        padding: 0px;
+        height: 100%;
+        border: none;
+      }
+      iframe {
+        display: block;
+        width: 100%;
+        border: none;
+        overflow-y: auto;
+        overflow-x: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe
+      src="https://testingmdas-aof2fpgv5qgagl2nbadmxe.streamlit.app/?embedded=true"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+      width="100%"
+      height="100%"
+      <!-- scrolling="auto" -->
+    >
+    </iframe>
+  </body>
 </html>
