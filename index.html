@@ -26,6 +26,7 @@
   </head>
   <body>
     <iframe
+    id="myiframe"
       src="https://testingmdas-aof2fpgv5qgagl2nbadmxe.streamlit.app/?embedded=true"
       frameborder="0"
       marginheight="0"
@@ -37,3 +38,13 @@
     </iframe>
   </body>
 </html>
+<script>
+  // document.querySelector('in-page-channel-node-id').removeAttribute('src');
+  document.getElementById('in-page-channel-node-id').remove()
+   var iframe = document.getElementById("myiframe");
+   iframe.width = iframe.contentWindow.document.body.scrollWidth;
+   iframe.height = iframe.contentWindow.document.body.scrollHeight;
+   
+
+
+</script>
